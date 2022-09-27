@@ -66,7 +66,7 @@
   <div class="flex-grow-0">
     <div class="bg-light px-lg-5 py-lg-4 p-3 mt-2 rounded-3">
       <h1>Shorten with meteor-links</h1>
-      <p class="lead">Shorten your long links for free with meteor-links, and automate your applications as you wish with Api and Npm Modules.</p>
+      <p class="lead">Shorten your long links for free with meteor-links, and automate your applications as you wish with Api.</p>
       <form on:submit={handleSubmit} id="brdFreeLinkCreate" class="d-flex gap-2 input-group-lg brd-form-focus-unset">
         <input type="text" class="form-control brd-free-input" placeholder="Write your long url" name="longUrl" aria-label="Long url" />
         <button class="btn btn-outline-secondary" type="submit">Create</button>
@@ -123,10 +123,6 @@
                   <td><i class="far fa-check-circle fa-lg" /></td>
                 </tr>
                 <tr>
-                  <td>Npm module</td>
-                  <td><i class="far fa-check-circle fa-lg" /></td>
-                </tr>
-                <tr>
                   <td>Qr code</td>
                   <td><i class="far fa-check-circle fa-lg" /></td>
                 </tr>
@@ -172,10 +168,6 @@
                 </tr>
                 <tr>
                   <td>Api access</td>
-                  <td><i class="far fa-check-circle fa-lg" /></td>
-                </tr>
-                <tr>
-                  <td>Npm module</td>
                   <td><i class="far fa-check-circle fa-lg" /></td>
                 </tr>
                 <tr>
@@ -227,10 +219,6 @@
                   <td><i class="far fa-check-circle fa-lg" /></td>
                 </tr>
                 <tr>
-                  <td>Npm module</td>
-                  <td><i class="far fa-check-circle fa-lg" /></td>
-                </tr>
-                <tr>
                   <td>Qr code</td>
                   <td><i class="far fa-check-circle fa-lg" /></td>
                 </tr>
@@ -263,17 +251,6 @@
             </div>
             <div class="mt-auto p-3">
               <a href="/api">Go Swagger</a>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="shadow brd-zoom-in d-flex flex-column h-100">
-            <div class="p-3">
-              <h4>Npm Module</h4>
-              <p class="small">Automate the url shortening process in your applications using the Npm Module.</p>
-            </div>
-            <div class="mt-auto p-3">
-              <a href="https://www.npmjs.com/package/tirij-api" target="_blank">Go Npm Module</a>
             </div>
           </div>
         </div>

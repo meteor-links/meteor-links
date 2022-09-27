@@ -50,7 +50,7 @@ Run
 ```
 
 
-## Screenshots
+## Guide
 To shorthen a link quickly, paste the long url such as drive sharing link and click create button. Dont forget you can also get the qr of the shorthen link generated as well as the shorthen url by click the icons on most right of link rows.
 ![App Screenshot](https://drive.google.com/uc?id=1xtpM-9i79qk7s1Pzvo0by6yGCJnaPmAF)
 
