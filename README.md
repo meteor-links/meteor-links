@@ -1,7 +1,9 @@
 
 # meteor-links
 
-Shorthens your long urls.
+Briefly, it shortens long links.
+
+The idea is focuses on one of the needs that every developer may need in their coding life.One of the cases of idea is: End users generally wants to see which link they are being redirected to. But showing long links -such as a drive sharing links- may be annoying. Though main solution of the project is about for shortening the links which they are annoyingly long, project will also provide side helpers to its users such as QR code generating to their links and dashboard panels to see their activities.
 
 Caution! Still on development until Meteor Hackathon 2022 is ended on 30 September! This is not the final version of the project.
 
@@ -11,8 +13,11 @@ Caution! Still on development until Meteor Hackathon 2022 is ended on 30 Septemb
 
 [![apache-2.0 License](https://img.shields.io/badge/License-Apache2.0-green.svg)](https://choosealicense.com/licenses/apache-2.0/)
 
+## Team Name
 
-## Contributors
+Meteor Fellowship
+
+## Team Members
 
 - https://github.com/Sergeant61
 - https://github.com/enessayaci
