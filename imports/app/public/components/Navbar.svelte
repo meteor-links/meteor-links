@@ -1,8 +1,11 @@
 <script>
+// @ts-nocheck
+
   import { active, router } from "tinro";
   import SwitchTheme from "./SwitchTheme.svelte";
+  import SwitchLanguage from "./SwitchLanguage.svelte";
 
-  export let hideCollapseMenu;
+  export let hideCollapseMenu = false;
   let user = null;
 
   const signOut = (event) => {
@@ -20,12 +23,14 @@
 
 <nav class="navbar navbar-expand-sm navbar-light rounded-3 bg-light">
   <div class="container-fluid">
+    <!-- svelte-ignore a11y-missing-content -->
     <a href="/" class="tj-navbar-logo fs-2"></a>
     <!-- <a href="/"><img src="/assets/images/svelte-logo-horizontal.svg" alt="" height="50" class="d-inline-block align-text-top" /> </a> -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon" />
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <!-- svelte-ignore empty-block -->
       {#if hideCollapseMenu == true}
         {:else}
           <ul class="navbar-nav me-auto mb-2 mb-sm-0 ms-sm-3">
@@ -38,6 +43,7 @@
           </ul>
       {/if}
 
+      <SwitchLanguage/>
       <SwitchTheme />
 
       <div class="d-flex gap-2">
