@@ -2,6 +2,5 @@ node_modules/
 .vscode/
 tests/screenshots
 tests/videos
-settings-prod.json
 server/smtp.js
 .meteor/local
