@@ -47,7 +47,7 @@ ActionGetLink = function (_id, slug = null) {
       case 'free':
         const id = Random.id();
         // const to = `${Meteor.absoluteUrl()}l/${id}`;
-        const to = `https://${shortLinkDomain}/${id}`;
+        const to = `http://${shortLinkDomain}/${id}`;
 
         RequestLinkDatas[id] = {
           link: link,
