@@ -1,7 +1,7 @@
 {
   "public": {
     "rootDomain": "localhost:3000",
-    "shortLinkDomain": "tirij.l:3000",
+    "shortLinkDomain": "meteor-links.l:3000",
     "adPageDisplayTime": 10000
   },
   "mor": {

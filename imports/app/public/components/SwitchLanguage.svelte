@@ -1,13 +1,18 @@
 <script>
   import { onMount } from "svelte";
+  import i18n from 'meteor/universe:i18n';
+  import { CurrentLocale, _} from "/lib/configs/client/i18n";
 
-  import { CurrentLocale, _ } from "/lib/configs/client/i18n";
-
+  let Translate;
   let _currentLocale = null;
   let __ = function(...data){console.log("denemelerden seçmeler"); return _(...data);}
   $m: {
       _currentLocale = CurrentLocale.get();
-      __ = function(...data){return _(...data);}
+      // __ = function(...data){return _(...data);};
+      Translate = i18n.createReactiveTranslator();
+      setTimeout(function(){
+          __ = function(...data){return _(...data);}
+      },500)
   }
 
 
